@@ -896,29 +896,6 @@ on_module_manager_activate(GtkMenuItem *menuitem, gpointer user_data)
 	gui_open_mod_mgr();
 }
 
-/******************************************************************************
- * Name
- *   on_open_studypad_activate
- *
- * Synopsis
- *   #include "gui/main_menu.h"
- *
- *   void on_open_studypad_activate(GtkMenuItem * menuitem, gpointer user_data)
- *
- * Description
- *    open studypad editor - if studypad dialog exist bring it to the
- *    top
- *
- * Return value
- *   void
- */
-G_MODULE_EXPORT void
-on_open_studypad_activate(GtkMenuItem *menuitem, gpointer user_data)
-{
-	editor_create_new(settings.studypadfilename, NULL, FALSE);
-	//create_window ();
-}
-
 G_MODULE_EXPORT void
 on_advanced_search_activate(GtkMenuItem *menuitem, gpointer user_data)
 {

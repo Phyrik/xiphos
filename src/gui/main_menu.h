@@ -80,8 +80,6 @@ void on_show_commentary_activate(GtkCheckMenuItem *menuitem,
 void on_show_dictionary_lexicon_activate(GtkCheckMenuItem *
 					     menuitem,
 					 gpointer user_data);
-void on_open_studypad_activate(GtkMenuItem *menuitem,
-			       gpointer user_data);
 void on_advanced_search_activate(GtkMenuItem *menuitem,
 				 gpointer user_data);
 void on_attach_detach_sidebar_activate(GtkMenuItem *menuitem,

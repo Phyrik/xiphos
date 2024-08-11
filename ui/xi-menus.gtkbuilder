@@ -15,22 +15,6 @@
           <object class="GtkMenu" id="menuitem4_menu">
             <property name="can_focus">False</property>
             <child>
-              <object class="GtkImageMenuItem" id="open_studypad">
-                <property name="label" translatable="yes">Open Study_pad</property>
-                <property name="visible">True</property>
-                <property name="can_focus">False</property>
-                <property name="use_underline">True</property>
-                <property name="use_stock">True</property>
-                <signal name="activate" handler="on_open_studypad_activate" swapped="no"/>
-              </object>
-            </child>
-            <child>
-              <object class="GtkSeparatorMenuItem" id="separator8">
-                <property name="visible">True</property>
-                <property name="can_focus">False</property>
-              </object>
-            </child>
-            <child>
               <object class="GtkImageMenuItem" id="open_session">
                 <property name="label" translatable="yes">_Open Session</property>
                 <property name="visible">True</property>

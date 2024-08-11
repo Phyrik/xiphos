@@ -43,32 +43,6 @@
 		<widget class="GtkMenu" id="menuitem4_menu">
 
 		  <child>
-		    <widget class="GtkImageMenuItem" id="open_studypad">
-		      <property name="visible">True</property>
-		      <property name="label" translatable="yes">Open Study_pad</property>
-		      <property name="use_underline">True</property>
-		      <signal name="activate" handler="on_open_studypad_activate" last_modification_time="Fri, 06 Mar 2009 17:09:25 GMT"/>
-
-		      <child internal-child="image">
-			<widget class="GtkImage" id="image1248">
-			  <property name="visible">True</property>
-			  <property name="pixbuf">silk-edit-bookmarks.png</property>
-			  <property name="xalign">0.5</property>
-			  <property name="yalign">0.5</property>
-			  <property name="xpad">0</property>
-			  <property name="ypad">0</property>
-			</widget>
-		      </child>
-		    </widget>
-		  </child>
-
-		  <child>
-		    <widget class="GtkSeparatorMenuItem" id="separator8">
-		      <property name="visible">True</property>
-		    </widget>
-		  </child>
-
-		  <child>
 		    <widget class="GtkImageMenuItem" id="open_session">
 		      <property name="visible">True</property>
 		      <property name="label" translatable="yes">_Open Session</property>
